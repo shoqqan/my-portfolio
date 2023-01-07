@@ -11,7 +11,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["Front-End Developer", "Web Designer", "UI/UX Designer"];
     const period = 2000;
 
     useEffect(() => {
@@ -55,10 +55,11 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className={'tagline'}>Hi,my name is Tataev Shoqan!</span>
                         <h1>{`Hi i'm `}<span className={'wrap'}>{text}</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem, cupiditate doloribus
-                            excepturi incidunt molestias obcaecati optio quidem sint voluptatibus. Et impedit quos
-                            ullam. Delectus magnam maxime nobis quo veritatis?</p>
-                        <button onClick={() => console.log('connect')}>Let's connect<ArrowDownCircle size={25}/>
+                        <p>I am a person who has a
+                            strong passion for programming.
+                            I have a massive experience in creating SPA. </p>
+                        <p>Do you need to complete the task efficiently in the shortest possible time? Write to me!</p>
+                        <button onClick={() => console.log('connect')}>Download CV<ArrowDownCircle size={25}/>
                         </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
